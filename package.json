@@ -44,7 +44,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
@@ -56,9 +58,10 @@
     "eslint-plugin-html": "^5.0.3",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-vue": "^5.2.2",
-    "mockjs": "^1.0.1-beta3",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "mockjs": "^1.0.1-beta3",
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^1.2.0"
   }
 }
