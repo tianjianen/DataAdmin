@@ -118,46 +118,21 @@ heyui-admin 是一个成熟的企业应用解决方案，基于 vue2.0 和 heyui
 
 ## 开始
 
-### 使用 hey-cli
-
-需要全局安装 hey-cli@1.13.0+
-
-**我们建议使用[hey-cli](https://github.com/heyui/hey-cli)脚手架。**
-
-```bash
-# clone the project
-git clone https://github.com/heyui/heyui-admin.git
-
-cd heyui-admin
-
-# install dependency
-npm install
-
-# develop, 你需要首先安装 hey-cli
-hey dev
-```
-
-系统将自动打开页面 http://localhost:9012, 或者你可以通过 hey.conf.js 文件修改端口号.
-
-
-### 使用 vue-cli
 
 需要全局安装 vue-cli@3.0.0+
 
 ```bash
 # clone the project
-git clone https://github.com/heyui/heyui-admin.git
+https://github.com/tianjianen/DataAdmin.git
 
-cd heyui-admin
+cd DataAdmin
 
-# 将vue-cli文件夹内的文件复制到根目录。
-mv -f ./vue-cli/* ./
 
 # install dependency
-npm install
+yarn install
 
-# develop
-npm run serve
+# run
+yarn serve
 ```
 
 ## 开发
@@ -182,7 +157,7 @@ devServer: {
 
 ```
 # build
-hey build
+yarn build
 ```
 
 ## 浏览器支持
@@ -191,15 +166,8 @@ hey build
 
 **系统已经自动安装配置好 polyfill.**
 
-## 打赏
-
-如果你觉得这个项目帮助到了你，你可以帮作者买一杯茶🍵表示鼓励。
-
-![image](https://heyui.github.io/heyui-admin-docs/images/docs/tea.jpg)
-
 
 ## License
 
-[MIT](https://github.com/heyui/heyui-admin/blob/master/LICENSE)
+[MIT](https://github.com/tianjianen/DataAdmin/master/LICENSE)
 
-Copyright (c) 2018-present Lan (vvpvvp)
